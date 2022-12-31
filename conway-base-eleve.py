@@ -61,7 +61,7 @@ def compte_voisins(automate):
     Elle renvoie une liste de listes voisins telle que :
     voisins[l][c] contient le nombre de cellules voisines vivantes autour de la cellule de la ligne l et de la colonne c.
     """
-    tabSave = []
+
     voisins = [ [] for c in range(len(automate))]
     for i in range(len(automate)):
         for y in range(len(automate[i])):
